@@ -1,0 +1,8 @@
+﻿GUI giao diện chạy 
+gọi
+BUS xử lý ... BUS làm 2 việc : 1 là xử lý nghiệp vụ về lỗi người dùng. 2 là chuyển tiếp thông tin xuống
+					cho thằng DAO xử lý tiếp
+DA0 xử lý ... Dữ liệu ở tầng bên dưới. 
+
+___
+DTO chỉ là làm cho code trỡ nên rõ ràng theo kiểu đối tượng hơn thôi

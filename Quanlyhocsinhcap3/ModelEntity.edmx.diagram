@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7e9f783e33524f27b16d3bd332328728" Name="Diagram1" ZoomLevel="65">
+        <EntityTypeShape EntityType="HocSinhModel.DIEMSO" Width="1.5" PointX="10.625" PointY="4" />
+        <EntityTypeShape EntityType="HocSinhModel.GIAOVIEN" Width="1.5" PointX="1.125" PointY="4.375" />
+        <EntityTypeShape EntityType="HocSinhModel.HOCKY" Width="1.5" PointX="5.125" PointY="8.25" />
+        <EntityTypeShape EntityType="HocSinhModel.HOCSINH" Width="1.5" PointX="8.25" PointY="1.625" />
+        <EntityTypeShape EntityType="HocSinhModel.KHOIHOC" Width="1.5" PointX="2.875" PointY="8.25" />
+        <EntityTypeShape EntityType="HocSinhModel.LOPHOC" Width="1.5" PointX="3" PointY="4.5" />
+        <EntityTypeShape EntityType="HocSinhModel.MONHOC" Width="1.5" PointX="4.625" PointY="2" />
+        <EntityTypeShape EntityType="HocSinhModel.NAMHOC" Width="1.5" PointX="2.375" PointY="2" />
+        <EntityTypeShape EntityType="HocSinhModel.PHANCONG" Width="1.5" PointX="5.25" PointY="4.5" />
+        <EntityTypeShape EntityType="HocSinhModel.THANNHAN" Width="1.5" PointX="9" PointY="7.625" />
+        <EntityTypeShape EntityType="HocSinhModel.XEPLOP" Width="1.5" PointX="8.25" PointY="5" />
+        <EntityTypeShape EntityType="HocSinhModel.DangNhap" Width="1.5" PointX="7" PointY="7.625" />
+        <AssociationConnector Association="HocSinhModel.FK_DS_HS" />
+        <AssociationConnector Association="HocSinhModel.FK_DS_PC" />
+        <AssociationConnector Association="HocSinhModel.FK_LH_GV" />
+        <AssociationConnector Association="HocSinhModel.FK_PC_GC" />
+        <AssociationConnector Association="HocSinhModel.FK_PC_HK" />
+        <AssociationConnector Association="HocSinhModel.FK_TN_HS" />
+        <AssociationConnector Association="HocSinhModel.FK_XL_HS" />
+        <AssociationConnector Association="HocSinhModel.FK_LH_KH" />
+        <AssociationConnector Association="HocSinhModel.FK_LH_NH" />
+        <AssociationConnector Association="HocSinhModel.FK_PC_LH" />
+        <AssociationConnector Association="HocSinhModel.FK_XL_LH" />
+        <AssociationConnector Association="HocSinhModel.FK_PC_MH" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
